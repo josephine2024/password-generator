@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generateur De Mot de Passe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section >
+        <div class="container">
+            <form class="formulaire">
+                <div class="resultat">
+                    <input type="text" name="result" placeholder="Minimun 6 char" id="resultat">
+                    <div class="click"> </div>
+
+                </div>
+                <!-- Debut section champ -->
+                <div class="group">
+                    <div class="champ">
+                        <label>Nombre char</label>
+                        <input type="number"  id="nombre" min="6" value="12">
+
+                    </div>
+                    <div class="champ">
+                        <label>Lettre Majuscule</label>
+                        <input type="checkbox"  id="majuscule" checked>
+                    </div>
+                    <div class="champ">
+                        <label>Lettre Minuscule</label>
+                        <input type="checkbox"  id="minuscule" checked>
+                    </div>
+                    <div class="champ">
+                        <label>Nombre</label>
+                        <input type="checkbox"  id="nbr">
+                    </div>
+                    <div class="champ">
+                        <label>Special Char</label>
+                        <input type="checkbox"  id="symbol">
+                    </div>
+                </div>
+                <!-- Fin section champ -->
+                <button type="submit">Generer Mot De Passe</button>
+            </form>
+
+        </div>
+    </section>
+    <script src="essai.js"></script>
+</body>
+</html>

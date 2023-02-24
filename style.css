@@ -1,0 +1,107 @@
+/*Initialisation de la page*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(22,25,27);
+    color: rgb(212,212,212);
+    font-size: 18px;
+}
+/* Design du bloc section */
+section{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0;
+}
+.container{
+    background-color: #303538;
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0px 0px 20px #00000011;
+}
+form{
+    font-size: 20px;
+    width: 100%;
+}
+/* Design du formulaire */
+.resultat{
+    background-color: rgb(223,233,243);
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.resultat input{
+    background-color: transparent;
+    width: 85%;
+    height: 100%;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.click{
+    width: 15%;
+    height: 100%;
+    background-color: royalblue;
+    position: absolute;
+    cursor:pointer;
+    right: 0px;
+    top:50%;
+    transform:translateY(-50%) ;
+    font-size: white;
+    display: flex;
+    align-items: center;
+}
+.champ input[type="number"]{
+    width: 50px;
+    height: 40px;
+    outline: none,;
+    padding: 20px;
+    padding-right: 0px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: rgb(241,241,241);
+}
+.champ{
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.champ:hover{
+    background-color: rgb(26,29,31);
+    
+}
+.champ label{
+    width: 100%;
+    padding: 10px;
+    cursor:pointer;
+}
+.champ input{
+    cursor: pointer;
+}
+button[type="submit"]{
+    display: inline-block;
+    width: 100%;
+    border:none;
+    outline: none;
+    height: 50px;
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
